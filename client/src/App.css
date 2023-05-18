@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Massarella";
+  src: url("../fonts/massallera.TTF") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Massarella", sans-serif !important;
+}
+
+.recuadro {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 80%;
+  width: 80%;
+  border: 4px solid #00ff93;
+  border-radius: 25px;
+}
+
+.recuadro-titulo-valores {
+  background-color: black;
+  margin-top: 7rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 20%;
+  border: 4px solid #00ff93;
+  border-radius: 50px;
+  margin: 0 3rem;
+}
+
+.titulo {
+  color: #fc93ff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 7rem;
+  text-shadow: 5px 5px 0px #00ff93;
+}
+
+.titulo-valores {
+  color: #fc93ff;
+  font-size: 4rem;
+  text-shadow: 5px 5px 0px #00ff93;
+}
+
+.valores-tratados {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.options-valores {
+  background-color: black;
+  margin-top: 7rem !important;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
+  height: 40%;
+  border: 4px solid #00ff93;
+  margin: 0 3rem;
+}
+
+.botones {
+  padding-top: 10rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #fffcff;
+  border: none;
+  font-size: 40px;
+}
+
+.mi-btn-start {
+  background-color: #00c271;
+  padding: 1rem;
+}
+
+.mi-btn-menu {
+  background-color: rgb(81, 81, 235);
+  padding: 1rem;
+}
+
+.mi-btn-menu-pre {
+  background-color: black;
+  padding: 1rem;
+  margin-top: 8%;
+}
+
+.mi-btn-caso {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: -webkit-fill-available;
+  height: 100%;
+  margin-bottom: 20%;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  margin-top: 8%;
+}
+
+.mi_btn-sign_in {
+  background-color: palevioletred;
+}
+
+.title-login {
+  margin: 0 !important;
+  color: white;
+  padding-left: 2rem !important;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.video-react-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.video-react-button {
+  display: none;
+}
+
+.botones-fila-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.botones-fila-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.botones-fila-1,
+.botones-fila-2 {
+  width: auto;
+  position: relative;
+  top: 100px;
+}
+
+.textoCaso1 {
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.textoCaso2 {
+  color: white;
+  position: relative;
+  top: 80px;
+  left: 20px;
+}
+
+.opciones {
+  display: flex;
+  position: relative;
+  top: 40px;
+}
+
+.osito {
+  width: 15%;
+  height: auto;
+  margin-left: 42.5%;
+}
+
+.mi-btn-caso-redencion {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: -webkit-fill-available;
+  height: 150%;
+  margin-bottom: 20%;
+  margin-top: 8%;
+}
+
+.datos-primera-pagina {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
